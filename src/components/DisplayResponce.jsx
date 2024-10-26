@@ -187,10 +187,14 @@ function DisplayResponce() {
           </div>
           <div className={styles.responceText}>
             <p style={{ color: "red", background: "white", padding: "1px" }}>
-              NOTE: If you are testing this application note that I'm using a
-              paid API to generate responses, hence the number of responses and
-              the length of responses will be limited because I manually fixed
-              it to 50 characters per fetch.
+              NOTE:{" "}
+              <strong>
+                Use latest chrome browser for the best performance
+              </strong>{" "}
+              If you are testing this application note that I'm using a paid API
+              to generate responses, hence the number of responses and the
+              length of responses will be limited because I manually fixed it to
+              50 characters per fetch.
             </p>
             <p>
               {loadingState || cohereLoading
